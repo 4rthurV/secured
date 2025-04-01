@@ -2,7 +2,7 @@
 
 ## Custom hash function and C library for managing a secure hashing table
 
-### 🔐 Project Overview
+## 🔐 Project Overview
 
 Secured is a project focused on implementing hash tables in C,
 
@@ -12,7 +12,7 @@ The goal is to create a secure storage system for important data by
 
 developing a custom hash function and handling collisions effectively.
 
-### 📌 Features
+## 📌 Features
 
 Custom hash function implementation
 Creation and management of hash tables
@@ -20,7 +20,7 @@ Support for insertion, deletion, and searching of key-value pairs
 Collision handling using separate chaining
 Implementation of a library (libsecured.a)
 
-### ⚙️ Installation & Usage
+## ⚙️ Installation & Usage
 ##### Prerequisites
 
 Ensure you have the necessary tools installed:
@@ -47,7 +47,7 @@ To execute the program:
 
     ./secured
 
-### 📂 Project Structure
+## 📂 Project Structure
 
     ├── src/                     #    Source code for hash table functions
     │   ├── delete_hashtable.c       #    Freeing hash table memory
@@ -69,7 +69,7 @@ To execute the program:
     ├── Makefile                 #    Build script
     ├── README.md                #    Project documentation
 
-### 🚀 Example Usage
+## 🚀 Example Usage
 
 ##### Creating a Hash Table
 
@@ -92,14 +92,16 @@ To execute the program:
 
     ht_dump(ht);
 
-### 📌 Compilation Rules
+## 📌 Compilation Rules
 
 The project is compiled using make
 Only write, malloc, and free are authorized functions
-The executable should return 84 on errors
+The executable should return 84 on errors.
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Arthur VIGNES – Developed for EPITECH 2024.
-🏛️ License
+
+## 🏛️ License
+
 This project is for educational purposes as part of the Elementary Programming in C module at EPITECH.
